@@ -5,7 +5,7 @@ const Page = () => {
   return (
     <Link
       style={{
-        height: "100dvh",
+        height: "95vh",
         width: "100vw",
         fontSize: "6vw",
         display: "flex",
