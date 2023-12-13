@@ -7,24 +7,28 @@ const Page = () => {
       style={{
         height: "95vh",
         width: "100vw",
-        fontSize: "6vw",
+        fontSize: "64px",
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
         color: "#678",
         textDecoration: "none",
         flexDirection: "column",
+        fontWeight: "lighter",
       }}
       href="/"
     >
       dscript.art
       <div
         style={{
-          fontSize: "1vw",
-          letterSpacing: "0.3vh",
+          fontSize: "24px",
+          padding: "12px 48px",
+          textAlign: "center",
+          fontWeight: "normal",
+          color: "#36454F",
         }}
       >
-        (the only developer of this project feeling lazy now)
+        the only developer of this project feeling lazy now
       </div>
     </Link>
   );
